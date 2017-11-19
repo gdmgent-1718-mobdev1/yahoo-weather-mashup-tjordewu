@@ -1,0 +1,67 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+}
+
+.weather_card {
+    background: #ffffff;
+    width: 450px;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+}
+
+.weather_card:hover {
+    transform: rotate(2deg);
+}
+
+.weather_card-left {
+    width: 23%;
+    height: 250px;
+    float: left;
+}
+
+.weather_card-content {
+    width: 73.5%;
+    height: 250px;
+    padding-top: 20px;
+    margin-left: 3%;
+    float: left;
+}
+
+.weather_card-title {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: rgb(71, 71, 71);
+}
+
+.weather_card-temperature {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #222329;
+    font-family: sans-serif;
+}
+
+h4 {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+p {
+    margin: 10px 0;
+    color: #777;
+    font-weight: 300;
+    font-family: sans-serif;
+    
+}
+
+.clear {
+    display: table;
+    content: '';
+    clear: both;
+}
